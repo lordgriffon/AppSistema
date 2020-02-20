@@ -14,10 +14,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_marginBottom="50dp"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
             android:src="@drawable/elfo" />
 
 
@@ -40,6 +40,17 @@
             android:background="@drawable/borda"
             android:drawableRight="@drawable/ic_lock"
             android:hint="Senha"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_lock"
+            android:hint="Confirma Senha"
             android:inputType="textPassword"
             android:maxLength="16"
             android:padding="10dp" />
